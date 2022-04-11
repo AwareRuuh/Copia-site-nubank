@@ -1,0 +1,56 @@
+html, body, h1, h2, h3, p, ul{
+        margin:0px;
+        padding:0px;
+}
+
+.menu{
+        width: 100%;
+        height: 56px;
+        background: white;
+        padding: 20px 0px 50px 50px;
+        position: fixed;
+}
+
+.logo{
+        display: block;
+        float: left;
+        margin-top: 28px;
+}
+
+.menu-nubank{
+        max-width: 100%;
+        float: left;
+}
+
+.menu-nubank li{
+        margin-top: 28px;
+        display: inline-block;
+}
+
+.menu-nubank a{
+        display: block;
+        text-decoration: none;
+        font-size: 18px;
+        margin-left: 33px;
+        font-family: 'Cabin', sans-serif;
+        font-weight: bold;
+        color: black;
+}
+
+.login li{
+        display: inline-block;
+        margin-top: 28px;
+        font-family: 'Cabin', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        padding-right: 70px;
+        margin-top: 28px;
+}
+.login {
+        float: right;
+}
+
+.login a{
+        text-decoration: none;
+        color: #820ad1;
+}

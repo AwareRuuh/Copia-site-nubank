@@ -1,1 +1,1 @@
-Copia site nubank
+Treinando html e css recriando o site do Nubank :)
