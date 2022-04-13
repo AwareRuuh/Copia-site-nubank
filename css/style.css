@@ -5,7 +5,7 @@ html, body, h1, h2, h3, p, ul{
 
 .menu{
         width: 100%;
-        height: 56px;
+        height: 20px;
         background: white;
         padding: 20px 0px 50px 50px;
         position: fixed;
@@ -14,7 +14,7 @@ html, body, h1, h2, h3, p, ul{
 .logo{
         display: block;
         float: left;
-        margin-top: 28px;
+        margin-top: 10px;
 }
 
 .menu-nubank{
@@ -23,7 +23,7 @@ html, body, h1, h2, h3, p, ul{
 }
 
 .menu-nubank li{
-        margin-top: 28px;
+        margin-top: 10px;
         display: inline-block;
 }
 
@@ -44,7 +44,7 @@ html, body, h1, h2, h3, p, ul{
         font-weight: bold;
         font-size: 18px;
         padding-right: 70px;
-        margin-top: 28px;
+        margin-top: 10px;
 }
 .login {
         float: right;
@@ -54,3 +54,75 @@ html, body, h1, h2, h3, p, ul{
         text-decoration: none;
         color: #820ad1;
 }
+
+/*inicio da imagem após o topo*/
+.imagem {
+        background: url('../img/img1.png') no-repeat center center;
+        background-size: cover;
+        height: 865px;
+}
+
+.imagem h1 {
+        padding: 370px 0 0 0;
+        margin-left: 220px;
+        margin-bottom: 10px;
+        font-family: 'Cabin', sans-serif;
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+}
+
+.imagem h2 {
+        margin-left: 220px;
+        font-family: 'Cabin', sans-serif;
+        color: white;
+        font-size: 30px;
+        font-weight: lighter;
+}
+
+.formulário {
+        box-sizing: border-box;
+        background: white;
+        max-width: 330px;
+        height: 300px;
+        float: right;
+        border-radius: 10px;
+        text-align: left;
+        padding: 20px;
+        margin-top: -205px;
+        margin-right: 40px;
+}
+
+.formulário h3{
+        color: black;
+        font-size: 23px;
+        margin-bottom: 80px;
+        font-family: 'Cabin', sans-serif;
+}
+
+.nome {
+        color: #585858;
+        font-size: 20px;
+}
+
+.botão {
+        background: #820ad1;
+        display: flex;
+        justify-content: space-between;
+        border: 0px;
+        align-items: center;
+        color: white;
+        width: 100%;
+        height: 30px;
+        border-radius: 15px;
+        margin-top: 10px;
+        padding: 20px;
+}
+
+.campo {
+        width: 100%;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+}
+/*final da imagem após o topo*/
